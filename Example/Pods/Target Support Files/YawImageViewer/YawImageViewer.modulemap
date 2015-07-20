@@ -1,0 +1,6 @@
+framework module YawImageViewer {
+  umbrella header "YawImageViewer-umbrella.h"
+
+  export *
+  module * { export * }
+}

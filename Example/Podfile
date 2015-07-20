@@ -2,11 +2,11 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 target 'YawImageViewer_Example', :exclusive => true do
-  pod "YawImageViewer", :path => "../"
+  pod "YawImageViewer"
 end
 
 target 'YawImageViewer_Tests', :exclusive => true do
-  pod "YawImageViewer", :path => "../"
+  pod "YawImageViewer"
 
   
 end

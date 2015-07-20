@@ -1,0 +1,10 @@
+PODS:
+  - YawImageViewer (0.1.4)
+
+DEPENDENCIES:
+  - YawImageViewer
+
+SPEC CHECKSUMS:
+  YawImageViewer: 4619c067b12eff9e3868a4eb4551202a244351e1
+
+COCOAPODS: 0.38.0
