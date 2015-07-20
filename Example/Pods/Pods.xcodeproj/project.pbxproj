@@ -12,7 +12,7 @@
 		0BF54EB1197729D444492258 /* UIView+CompactConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED01D2A8033B70A04F814A6 /* UIView+CompactConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13410853B55106EFB21F0D4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BC787DBE02FCDB2B1948ED /* Foundation.framework */; };
 		195D9BD86AC5C2BD31D07B30 /* NSLayoutConstraint+CompactConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = EB9F1B9C0DA8B596F115C1E0 /* NSLayoutConstraint+CompactConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E6DE245983AEA3114FF47B7 /* KGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 826FB113C725C3D28DFA4EF7 /* KGView.m */; };
+		1E6DE245983AEA3114FF47B7 /* KGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 826FB113C725C3D28DFA4EF7 /* KGViewController.m */; };
 		261F61288A0DA3DE258AC598 /* Pods-YawImageViewer_Tests-YawImageViewer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A60C407F9DC828E5659D7624 /* Pods-YawImageViewer_Tests-YawImageViewer-dummy.m */; };
 		3224CC133EB10FD6DB4996F2 /* Pods-YawImageViewer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0870180B1F1117A572F7C /* Pods-YawImageViewer_Tests-dummy.m */; };
 		36E644EA29F5F8C71BC8A672 /* YawImageViewer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28473C59E52B495D2616D3C4 /* YawImageViewer.bundle */; };
@@ -20,15 +20,15 @@
 		4E91B8EB5838BFEE9CCEEC18 /* Pods-YawImageViewer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75200FA75201492A625B745F /* Pods-YawImageViewer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50F7885C972A8829DE8A6600 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BC787DBE02FCDB2B1948ED /* Foundation.framework */; };
 		608A47B3FB8B7A9E8E59A9F8 /* UIView+CompactConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D1DBB4ADFA3010BD907DEE /* UIView+CompactConstraint.m */; };
-		68F6EC97EF17B600C17B2F2F /* KGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 826FB113C725C3D28DFA4EF7 /* KGView.m */; };
+		68F6EC97EF17B600C17B2F2F /* KGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 826FB113C725C3D28DFA4EF7 /* KGViewController.m */; };
 		759F4CA47CDB15A786D37CD1 /* Pods-YawImageViewer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C5F514369CA88413C124AB /* Pods-YawImageViewer_Example-dummy.m */; };
-		78BDD01000BD21FBA171ED61 /* KGView.h in Headers */ = {isa = PBXBuildFile; fileRef = 68464957FDEF5532624AA366 /* KGView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78BDD01000BD21FBA171ED61 /* KGViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 68464957FDEF5532624AA366 /* KGViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89D3C4724DA57537E0575CB8 /* Pods-YawImageViewer_Example-CompactConstraint-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8FC946D3397271DD467D9F5 /* Pods-YawImageViewer_Example-CompactConstraint-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93394ECA16FA2E3A03F8EF57 /* Pods-YawImageViewer_Example-YawImageViewer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6BE477D2197D3F91F60C3A /* Pods-YawImageViewer_Example-YawImageViewer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		947A0B8DC4D9B2FCC1E83F0F /* Pods-YawImageViewer_Example-YawImageViewer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEC0ED3D7C868E259C4EF1D /* Pods-YawImageViewer_Example-YawImageViewer-dummy.m */; };
 		96602D431D6F0B8512860739 /* YawImageViewer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 245392091696EF8FAEE79012 /* YawImageViewer.bundle */; };
 		B8C03030F8D75D68084CF6D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BC787DBE02FCDB2B1948ED /* Foundation.framework */; };
-		BE51E9A891B78ABD54B10080 /* KGView.h in Headers */ = {isa = PBXBuildFile; fileRef = 68464957FDEF5532624AA366 /* KGView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE51E9A891B78ABD54B10080 /* KGViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 68464957FDEF5532624AA366 /* KGViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E53D6FFD6E41AE1CDC145768 /* CompactConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 892300CD7E01DE21F6F5F2BE /* CompactConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE3B0237AAB185F1EC022C5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BC787DBE02FCDB2B1948ED /* Foundation.framework */; };
 		EE56E823B6563D639CEFF1EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BC787DBE02FCDB2B1948ED /* Foundation.framework */; };
@@ -99,13 +99,13 @@
 		57D1DBB4ADFA3010BD907DEE /* UIView+CompactConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CompactConstraint.m"; path = "CompactConstraint/UIView+CompactConstraint.m"; sourceTree = "<group>"; };
 		5B3C3CDB8503223300D0B273 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-YawImageViewer_Tests-YawImageViewer/Info.plist"; sourceTree = "<group>"; };
 		62B54CC3940C0BD96CCC8D1E /* Pods-YawImageViewer_Example-YawImageViewer-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YawImageViewer_Example-YawImageViewer-Private.xcconfig"; sourceTree = "<group>"; };
-		68464957FDEF5532624AA366 /* KGView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KGView.h; sourceTree = "<group>"; };
+		68464957FDEF5532624AA366 /* KGViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KGViewController.h; sourceTree = "<group>"; };
 		6BF5D7553ED42CAE90BEFA2D /* Pods-YawImageViewer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YawImageViewer_Tests-resources.sh"; sourceTree = "<group>"; };
 		75200FA75201492A625B745F /* Pods-YawImageViewer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YawImageViewer_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7C96E4CED05C209499E6B232 /* Pods-YawImageViewer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YawImageViewer_Example.modulemap"; sourceTree = "<group>"; };
 		7D9D296E6532587D0EC0B7CD /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		814DFAD9F0E075534E01041F /* Pods-YawImageViewer_Tests-YawImageViewer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-YawImageViewer_Tests-YawImageViewer-umbrella.h"; path = "../Pods-YawImageViewer_Tests-YawImageViewer/Pods-YawImageViewer_Tests-YawImageViewer-umbrella.h"; sourceTree = "<group>"; };
-		826FB113C725C3D28DFA4EF7 /* KGView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KGView.m; sourceTree = "<group>"; };
+		826FB113C725C3D28DFA4EF7 /* KGViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KGViewController.m; sourceTree = "<group>"; };
 		86BFC07D469343941A7DBEE2 /* Pods-YawImageViewer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YawImageViewer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		892300CD7E01DE21F6F5F2BE /* CompactConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CompactConstraint.h; path = CompactConstraint/CompactConstraint.h; sourceTree = "<group>"; };
 		892690B6D6BBE392FDF9DA76 /* NSLayoutConstraint+CompactConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+CompactConstraint.m"; path = "CompactConstraint/NSLayoutConstraint+CompactConstraint.m"; sourceTree = "<group>"; };
@@ -369,8 +369,8 @@
 		FDC77B21F086B8A7CDEB7351 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				68464957FDEF5532624AA366 /* KGView.h */,
-				826FB113C725C3D28DFA4EF7 /* KGView.m */,
+				68464957FDEF5532624AA366 /* KGViewController.h */,
+				826FB113C725C3D28DFA4EF7 /* KGViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -390,7 +390,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78BDD01000BD21FBA171ED61 /* KGView.h in Headers */,
+				78BDD01000BD21FBA171ED61 /* KGViewController.h in Headers */,
 				05ED538371860AAA83CCFD50 /* Pods-YawImageViewer_Tests-YawImageViewer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,7 +407,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE51E9A891B78ABD54B10080 /* KGView.h in Headers */,
+				BE51E9A891B78ABD54B10080 /* KGViewController.h in Headers */,
 				93394ECA16FA2E3A03F8EF57 /* Pods-YawImageViewer_Example-YawImageViewer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -621,7 +621,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E6DE245983AEA3114FF47B7 /* KGView.m in Sources */,
+				1E6DE245983AEA3114FF47B7 /* KGViewController.m in Sources */,
 				261F61288A0DA3DE258AC598 /* Pods-YawImageViewer_Tests-YawImageViewer-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -670,7 +670,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68F6EC97EF17B600C17B2F2F /* KGView.m in Sources */,
+				68F6EC97EF17B600C17B2F2F /* KGViewController.m in Sources */,
 				947A0B8DC4D9B2FCC1E83F0F /* Pods-YawImageViewer_Example-YawImageViewer-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
