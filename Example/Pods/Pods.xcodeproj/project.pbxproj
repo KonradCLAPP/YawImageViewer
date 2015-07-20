@@ -1,0 +1,1195 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00645E763F8C6E1CA1AEF1FC /* NSLayoutConstraint+CompactConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 892690B6D6BBE392FDF9DA76 /* NSLayoutConstraint+CompactConstraint.m */; };
+		05ED538371860AAA83CCFD50 /* Pods-YawImageViewer_Tests-YawImageViewer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 814DFAD9F0E075534E01041F /* Pods-YawImageViewer_Tests-YawImageViewer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BF54EB1197729D444492258 /* UIView+CompactConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED01D2A8033B70A04F814A6 /* UIView+CompactConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13410853B55106EFB21F0D4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BC787DBE02FCDB2B1948ED /* Foundation.framework */; };
+		195D9BD86AC5C2BD31D07B30 /* NSLayoutConstraint+CompactConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = EB9F1B9C0DA8B596F115C1E0 /* NSLayoutConstraint+CompactConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E6DE245983AEA3114FF47B7 /* KGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 826FB113C725C3D28DFA4EF7 /* KGView.m */; };
+		261F61288A0DA3DE258AC598 /* Pods-YawImageViewer_Tests-YawImageViewer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A60C407F9DC828E5659D7624 /* Pods-YawImageViewer_Tests-YawImageViewer-dummy.m */; };
+		3224CC133EB10FD6DB4996F2 /* Pods-YawImageViewer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0870180B1F1117A572F7C /* Pods-YawImageViewer_Tests-dummy.m */; };
+		36E644EA29F5F8C71BC8A672 /* YawImageViewer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28473C59E52B495D2616D3C4 /* YawImageViewer.bundle */; };
+		46177CE7DA9F29416AF2C5B6 /* Pods-YawImageViewer_Example-CompactConstraint-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 381C1BA37438E5EF94FA989C /* Pods-YawImageViewer_Example-CompactConstraint-dummy.m */; };
+		4E91B8EB5838BFEE9CCEEC18 /* Pods-YawImageViewer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75200FA75201492A625B745F /* Pods-YawImageViewer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50F7885C972A8829DE8A6600 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BC787DBE02FCDB2B1948ED /* Foundation.framework */; };
+		608A47B3FB8B7A9E8E59A9F8 /* UIView+CompactConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D1DBB4ADFA3010BD907DEE /* UIView+CompactConstraint.m */; };
+		68F6EC97EF17B600C17B2F2F /* KGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 826FB113C725C3D28DFA4EF7 /* KGView.m */; };
+		759F4CA47CDB15A786D37CD1 /* Pods-YawImageViewer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C5F514369CA88413C124AB /* Pods-YawImageViewer_Example-dummy.m */; };
+		78BDD01000BD21FBA171ED61 /* KGView.h in Headers */ = {isa = PBXBuildFile; fileRef = 68464957FDEF5532624AA366 /* KGView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89D3C4724DA57537E0575CB8 /* Pods-YawImageViewer_Example-CompactConstraint-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8FC946D3397271DD467D9F5 /* Pods-YawImageViewer_Example-CompactConstraint-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93394ECA16FA2E3A03F8EF57 /* Pods-YawImageViewer_Example-YawImageViewer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6BE477D2197D3F91F60C3A /* Pods-YawImageViewer_Example-YawImageViewer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		947A0B8DC4D9B2FCC1E83F0F /* Pods-YawImageViewer_Example-YawImageViewer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEC0ED3D7C868E259C4EF1D /* Pods-YawImageViewer_Example-YawImageViewer-dummy.m */; };
+		96602D431D6F0B8512860739 /* YawImageViewer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 245392091696EF8FAEE79012 /* YawImageViewer.bundle */; };
+		B8C03030F8D75D68084CF6D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BC787DBE02FCDB2B1948ED /* Foundation.framework */; };
+		BE51E9A891B78ABD54B10080 /* KGView.h in Headers */ = {isa = PBXBuildFile; fileRef = 68464957FDEF5532624AA366 /* KGView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E53D6FFD6E41AE1CDC145768 /* CompactConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 892300CD7E01DE21F6F5F2BE /* CompactConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE3B0237AAB185F1EC022C5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BC787DBE02FCDB2B1948ED /* Foundation.framework */; };
+		EE56E823B6563D639CEFF1EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BC787DBE02FCDB2B1948ED /* Foundation.framework */; };
+		F40FE5450256F86410FCCFDD /* Pods-YawImageViewer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEBD01E23EE0AD85EFF8F336 /* Pods-YawImageViewer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C5767A8EB03D6A4E5B44D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB29F45ECF0D6C53B4D11AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7568BB5412FFE18FD5AF0DA8;
+			remoteInfo = "Pods-YawImageViewer_Example-YawImageViewer-YawImageViewer";
+		};
+		46B6174277C996DC4EF5CF92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB29F45ECF0D6C53B4D11AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C656B73105151ABAB36CC74D;
+			remoteInfo = "Pods-YawImageViewer_Tests-YawImageViewer-YawImageViewer";
+		};
+		5FA0AEC8EDB5BED47384653A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB29F45ECF0D6C53B4D11AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEB9ED4D8DD3A9BC8909097B;
+			remoteInfo = "Pods-YawImageViewer_Example-YawImageViewer";
+		};
+		641E5138AD1D508A060AE556 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB29F45ECF0D6C53B4D11AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5668769831815726F3426DD;
+			remoteInfo = "Pods-YawImageViewer_Example-CompactConstraint";
+		};
+		A230F952C4289243157F2C06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB29F45ECF0D6C53B4D11AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B88030262D4F1C6193869D48;
+			remoteInfo = "Pods-YawImageViewer_Tests-YawImageViewer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00C36AD977AF40DBFDBD6611 /* Pods-YawImageViewer_Tests-YawImageViewer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-YawImageViewer_Tests-YawImageViewer-prefix.pch"; path = "../Pods-YawImageViewer_Tests-YawImageViewer/Pods-YawImageViewer_Tests-YawImageViewer-prefix.pch"; sourceTree = "<group>"; };
+		0110518B5052FD04E0515400 /* Pods_YawImageViewer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YawImageViewer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AABCC115D02509AC9FF2BE0 /* Pods-YawImageViewer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YawImageViewer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		13CA7D35656FDEFC57287FB2 /* Pods-YawImageViewer_Tests-YawImageViewer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YawImageViewer_Tests-YawImageViewer.xcconfig"; path = "../Pods-YawImageViewer_Tests-YawImageViewer/Pods-YawImageViewer_Tests-YawImageViewer.xcconfig"; sourceTree = "<group>"; };
+		14389983B0D80285DFF99941 /* Pods-YawImageViewer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YawImageViewer_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		21238AE20C4D92A5B7C79CD2 /* Pods-YawImageViewer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YawImageViewer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		245392091696EF8FAEE79012 /* YawImageViewer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YawImageViewer.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		27658DDE01658E3F8AD212B2 /* CompactConstraint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CompactConstraint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28473C59E52B495D2616D3C4 /* YawImageViewer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YawImageViewer.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD26DC5B83485C8D7FBB1FD /* Pods-YawImageViewer_Example-CompactConstraint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YawImageViewer_Example-CompactConstraint.xcconfig"; sourceTree = "<group>"; };
+		2EEC0ED3D7C868E259C4EF1D /* Pods-YawImageViewer_Example-YawImageViewer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YawImageViewer_Example-YawImageViewer-dummy.m"; sourceTree = "<group>"; };
+		31C6DF2DC66F51F32AF482CB /* Pods-YawImageViewer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YawImageViewer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		381C1BA37438E5EF94FA989C /* Pods-YawImageViewer_Example-CompactConstraint-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YawImageViewer_Example-CompactConstraint-dummy.m"; sourceTree = "<group>"; };
+		38C5F514369CA88413C124AB /* Pods-YawImageViewer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YawImageViewer_Example-dummy.m"; sourceTree = "<group>"; };
+		3B6BE477D2197D3F91F60C3A /* Pods-YawImageViewer_Example-YawImageViewer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YawImageViewer_Example-YawImageViewer-umbrella.h"; sourceTree = "<group>"; };
+		3ED01D2A8033B70A04F814A6 /* UIView+CompactConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CompactConstraint.h"; path = "CompactConstraint/UIView+CompactConstraint.h"; sourceTree = "<group>"; };
+		3FE0870180B1F1117A572F7C /* Pods-YawImageViewer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YawImageViewer_Tests-dummy.m"; sourceTree = "<group>"; };
+		40FD1B88046626120A62121D /* Pods-YawImageViewer_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YawImageViewer_Example-environment.h"; sourceTree = "<group>"; };
+		5175E77D832755CDC7CECD36 /* Pods-YawImageViewer_Example-YawImageViewer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YawImageViewer_Example-YawImageViewer.xcconfig"; sourceTree = "<group>"; };
+		51B91310D24A5A742E045611 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53BC787DBE02FCDB2B1948ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		56962E927F318BDC5EDF15DD /* Pods-YawImageViewer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YawImageViewer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		57D1DBB4ADFA3010BD907DEE /* UIView+CompactConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CompactConstraint.m"; path = "CompactConstraint/UIView+CompactConstraint.m"; sourceTree = "<group>"; };
+		5B3C3CDB8503223300D0B273 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-YawImageViewer_Tests-YawImageViewer/Info.plist"; sourceTree = "<group>"; };
+		62B54CC3940C0BD96CCC8D1E /* Pods-YawImageViewer_Example-YawImageViewer-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YawImageViewer_Example-YawImageViewer-Private.xcconfig"; sourceTree = "<group>"; };
+		68464957FDEF5532624AA366 /* KGView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KGView.h; sourceTree = "<group>"; };
+		6BF5D7553ED42CAE90BEFA2D /* Pods-YawImageViewer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YawImageViewer_Tests-resources.sh"; sourceTree = "<group>"; };
+		75200FA75201492A625B745F /* Pods-YawImageViewer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YawImageViewer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7C96E4CED05C209499E6B232 /* Pods-YawImageViewer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YawImageViewer_Example.modulemap"; sourceTree = "<group>"; };
+		7D9D296E6532587D0EC0B7CD /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		814DFAD9F0E075534E01041F /* Pods-YawImageViewer_Tests-YawImageViewer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-YawImageViewer_Tests-YawImageViewer-umbrella.h"; path = "../Pods-YawImageViewer_Tests-YawImageViewer/Pods-YawImageViewer_Tests-YawImageViewer-umbrella.h"; sourceTree = "<group>"; };
+		826FB113C725C3D28DFA4EF7 /* KGView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KGView.m; sourceTree = "<group>"; };
+		86BFC07D469343941A7DBEE2 /* Pods-YawImageViewer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YawImageViewer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		892300CD7E01DE21F6F5F2BE /* CompactConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CompactConstraint.h; path = CompactConstraint/CompactConstraint.h; sourceTree = "<group>"; };
+		892690B6D6BBE392FDF9DA76 /* NSLayoutConstraint+CompactConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+CompactConstraint.m"; path = "CompactConstraint/NSLayoutConstraint+CompactConstraint.m"; sourceTree = "<group>"; };
+		911347DAEAFA0072206C5A04 /* Pods-YawImageViewer_Tests-YawImageViewer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-YawImageViewer_Tests-YawImageViewer.modulemap"; path = "../Pods-YawImageViewer_Tests-YawImageViewer/Pods-YawImageViewer_Tests-YawImageViewer.modulemap"; sourceTree = "<group>"; };
+		92D12E0E53CC5576ED015298 /* Pods-YawImageViewer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YawImageViewer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		96137F10DF4D5965AB30D9D5 /* YawImageViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YawImageViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97CFC44BC816049B75185C47 /* Pods-YawImageViewer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YawImageViewer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A60C407F9DC828E5659D7624 /* Pods-YawImageViewer_Tests-YawImageViewer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-YawImageViewer_Tests-YawImageViewer-dummy.m"; path = "../Pods-YawImageViewer_Tests-YawImageViewer/Pods-YawImageViewer_Tests-YawImageViewer-dummy.m"; sourceTree = "<group>"; };
+		A7408F216C4472755493654F /* Pods-YawImageViewer_Tests-YawImageViewer-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YawImageViewer_Tests-YawImageViewer-Private.xcconfig"; path = "../Pods-YawImageViewer_Tests-YawImageViewer/Pods-YawImageViewer_Tests-YawImageViewer-Private.xcconfig"; sourceTree = "<group>"; };
+		A782AFD70048CE85DFBD7348 /* Pods-YawImageViewer_Example-CompactConstraint.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YawImageViewer_Example-CompactConstraint.modulemap"; sourceTree = "<group>"; };
+		AEBD01E23EE0AD85EFF8F336 /* Pods-YawImageViewer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YawImageViewer_Example-umbrella.h"; sourceTree = "<group>"; };
+		B10C95892C77FB57BA4453CA /* Pods-YawImageViewer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YawImageViewer_Example-resources.sh"; sourceTree = "<group>"; };
+		B453FBDF91195BABD7C267D6 /* Pods-YawImageViewer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YawImageViewer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B5F8FBF1E319EE368CD989F2 /* Pods-YawImageViewer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YawImageViewer_Tests.modulemap"; sourceTree = "<group>"; };
+		BB04FB8E86AFD6AD58CCE9B9 /* Pods-YawImageViewer_Example-CompactConstraint-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YawImageViewer_Example-CompactConstraint-Private.xcconfig"; sourceTree = "<group>"; };
+		BBE805EADDCBA963E21D725C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1299B505A10065D658439A6 /* Pods-YawImageViewer_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YawImageViewer_Tests-environment.h"; sourceTree = "<group>"; };
+		D1F8BCF22B7F26FFA1445D0C /* YawImageViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YawImageViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D54922FCFF8A7BDB940C58F4 /* Pods-YawImageViewer_Example-YawImageViewer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YawImageViewer_Example-YawImageViewer.modulemap"; sourceTree = "<group>"; };
+		D8FC946D3397271DD467D9F5 /* Pods-YawImageViewer_Example-CompactConstraint-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YawImageViewer_Example-CompactConstraint-umbrella.h"; sourceTree = "<group>"; };
+		D9CAA10A41F2F06CBB5916FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB47633C5CBB6BCD8179214C /* Pods-YawImageViewer_Example-CompactConstraint-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YawImageViewer_Example-CompactConstraint-prefix.pch"; sourceTree = "<group>"; };
+		DE8CB0445B4788B55078F46E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7EEE609D8507AA4B4DFF35F /* Pods-YawImageViewer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YawImageViewer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB9F1B9C0DA8B596F115C1E0 /* NSLayoutConstraint+CompactConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+CompactConstraint.h"; path = "CompactConstraint/NSLayoutConstraint+CompactConstraint.h"; sourceTree = "<group>"; };
+		FAE690A3FFCF932668CA0709 /* Pods_YawImageViewer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YawImageViewer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD32DF4B7C008E0F505C344D /* Pods-YawImageViewer_Example-YawImageViewer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YawImageViewer_Example-YawImageViewer-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24DD3F07382299F278C7207E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4090A64E9F0A6E378E125B2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3B0237AAB185F1EC022C5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D79CE1A5BA4F41FFADAB2FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		659E9903B3672B9EF5EC9C90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F7885C972A8829DE8A6600 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		747095E12C4603FC33774FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13410853B55106EFB21F0D4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0683F0826B1719B0924839C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE56E823B6563D639CEFF1EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22B47D5047548E0F5FDC98D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8C03030F8D75D68084CF6D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		304223BB6354787FFC746664 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84AD8448BBC1D0B5B0EDE796 /* CompactConstraint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3854E72A53BD38F428B6ACF8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBE805EADDCBA963E21D725C /* Info.plist */,
+				5B3C3CDB8503223300D0B273 /* Info.plist */,
+				D54922FCFF8A7BDB940C58F4 /* Pods-YawImageViewer_Example-YawImageViewer.modulemap */,
+				5175E77D832755CDC7CECD36 /* Pods-YawImageViewer_Example-YawImageViewer.xcconfig */,
+				62B54CC3940C0BD96CCC8D1E /* Pods-YawImageViewer_Example-YawImageViewer-Private.xcconfig */,
+				2EEC0ED3D7C868E259C4EF1D /* Pods-YawImageViewer_Example-YawImageViewer-dummy.m */,
+				FD32DF4B7C008E0F505C344D /* Pods-YawImageViewer_Example-YawImageViewer-prefix.pch */,
+				3B6BE477D2197D3F91F60C3A /* Pods-YawImageViewer_Example-YawImageViewer-umbrella.h */,
+				911347DAEAFA0072206C5A04 /* Pods-YawImageViewer_Tests-YawImageViewer.modulemap */,
+				13CA7D35656FDEFC57287FB2 /* Pods-YawImageViewer_Tests-YawImageViewer.xcconfig */,
+				A7408F216C4472755493654F /* Pods-YawImageViewer_Tests-YawImageViewer-Private.xcconfig */,
+				A60C407F9DC828E5659D7624 /* Pods-YawImageViewer_Tests-YawImageViewer-dummy.m */,
+				00C36AD977AF40DBFDBD6611 /* Pods-YawImageViewer_Tests-YawImageViewer-prefix.pch */,
+				814DFAD9F0E075534E01041F /* Pods-YawImageViewer_Tests-YawImageViewer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-YawImageViewer_Example-YawImageViewer";
+			sourceTree = "<group>";
+		};
+		3CD46B0B24E87240CF3707F2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				53BC787DBE02FCDB2B1948ED /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7073B171F3FB55E8BF307E2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CD46B0B24E87240CF3707F2 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		720873A6643BC6BF4CC4E8C0 /* YawImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				B947C1DC2DCE2C9ABEA2C95B /* Pod */,
+				3854E72A53BD38F428B6ACF8 /* Support Files */,
+			);
+			name = YawImageViewer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7A5A56856851F7E81CA819DF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				720873A6643BC6BF4CC4E8C0 /* YawImageViewer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		84AD8448BBC1D0B5B0EDE796 /* CompactConstraint */ = {
+			isa = PBXGroup;
+			children = (
+				892300CD7E01DE21F6F5F2BE /* CompactConstraint.h */,
+				EB9F1B9C0DA8B596F115C1E0 /* NSLayoutConstraint+CompactConstraint.h */,
+				892690B6D6BBE392FDF9DA76 /* NSLayoutConstraint+CompactConstraint.m */,
+				3ED01D2A8033B70A04F814A6 /* UIView+CompactConstraint.h */,
+				57D1DBB4ADFA3010BD907DEE /* UIView+CompactConstraint.m */,
+				A080DB164A685EB17CAA64EB /* Support Files */,
+			);
+			path = CompactConstraint;
+			sourceTree = "<group>";
+		};
+		867E6C541FB3404A7D6DF2AA = {
+			isa = PBXGroup;
+			children = (
+				7D9D296E6532587D0EC0B7CD /* Podfile */,
+				7A5A56856851F7E81CA819DF /* Development Pods */,
+				7073B171F3FB55E8BF307E2C /* Frameworks */,
+				304223BB6354787FFC746664 /* Pods */,
+				F1270A953AC27D35B4EA0F45 /* Products */,
+				C0E7DE1F347FC94E63140988 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		90C393A3BFDC8C3760C622DF /* Pods-YawImageViewer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D9CAA10A41F2F06CBB5916FB /* Info.plist */,
+				B5F8FBF1E319EE368CD989F2 /* Pods-YawImageViewer_Tests.modulemap */,
+				E7EEE609D8507AA4B4DFF35F /* Pods-YawImageViewer_Tests-acknowledgements.markdown */,
+				0AABCC115D02509AC9FF2BE0 /* Pods-YawImageViewer_Tests-acknowledgements.plist */,
+				3FE0870180B1F1117A572F7C /* Pods-YawImageViewer_Tests-dummy.m */,
+				D1299B505A10065D658439A6 /* Pods-YawImageViewer_Tests-environment.h */,
+				14389983B0D80285DFF99941 /* Pods-YawImageViewer_Tests-frameworks.sh */,
+				6BF5D7553ED42CAE90BEFA2D /* Pods-YawImageViewer_Tests-resources.sh */,
+				75200FA75201492A625B745F /* Pods-YawImageViewer_Tests-umbrella.h */,
+				97CFC44BC816049B75185C47 /* Pods-YawImageViewer_Tests.debug.xcconfig */,
+				21238AE20C4D92A5B7C79CD2 /* Pods-YawImageViewer_Tests.release.xcconfig */,
+			);
+			name = "Pods-YawImageViewer_Tests";
+			path = "Target Support Files/Pods-YawImageViewer_Tests";
+			sourceTree = "<group>";
+		};
+		A080DB164A685EB17CAA64EB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				51B91310D24A5A742E045611 /* Info.plist */,
+				A782AFD70048CE85DFBD7348 /* Pods-YawImageViewer_Example-CompactConstraint.modulemap */,
+				2DD26DC5B83485C8D7FBB1FD /* Pods-YawImageViewer_Example-CompactConstraint.xcconfig */,
+				BB04FB8E86AFD6AD58CCE9B9 /* Pods-YawImageViewer_Example-CompactConstraint-Private.xcconfig */,
+				381C1BA37438E5EF94FA989C /* Pods-YawImageViewer_Example-CompactConstraint-dummy.m */,
+				DB47633C5CBB6BCD8179214C /* Pods-YawImageViewer_Example-CompactConstraint-prefix.pch */,
+				D8FC946D3397271DD467D9F5 /* Pods-YawImageViewer_Example-CompactConstraint-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-YawImageViewer_Example-CompactConstraint";
+			sourceTree = "<group>";
+		};
+		B947C1DC2DCE2C9ABEA2C95B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FDC77B21F086B8A7CDEB7351 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		C0E7DE1F347FC94E63140988 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB4A89E852C0067603540A74 /* Pods-YawImageViewer_Example */,
+				90C393A3BFDC8C3760C622DF /* Pods-YawImageViewer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EB4A89E852C0067603540A74 /* Pods-YawImageViewer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DE8CB0445B4788B55078F46E /* Info.plist */,
+				7C96E4CED05C209499E6B232 /* Pods-YawImageViewer_Example.modulemap */,
+				56962E927F318BDC5EDF15DD /* Pods-YawImageViewer_Example-acknowledgements.markdown */,
+				86BFC07D469343941A7DBEE2 /* Pods-YawImageViewer_Example-acknowledgements.plist */,
+				38C5F514369CA88413C124AB /* Pods-YawImageViewer_Example-dummy.m */,
+				40FD1B88046626120A62121D /* Pods-YawImageViewer_Example-environment.h */,
+				92D12E0E53CC5576ED015298 /* Pods-YawImageViewer_Example-frameworks.sh */,
+				B10C95892C77FB57BA4453CA /* Pods-YawImageViewer_Example-resources.sh */,
+				AEBD01E23EE0AD85EFF8F336 /* Pods-YawImageViewer_Example-umbrella.h */,
+				31C6DF2DC66F51F32AF482CB /* Pods-YawImageViewer_Example.debug.xcconfig */,
+				B453FBDF91195BABD7C267D6 /* Pods-YawImageViewer_Example.release.xcconfig */,
+			);
+			name = "Pods-YawImageViewer_Example";
+			path = "Target Support Files/Pods-YawImageViewer_Example";
+			sourceTree = "<group>";
+		};
+		F1270A953AC27D35B4EA0F45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27658DDE01658E3F8AD212B2 /* CompactConstraint.framework */,
+				0110518B5052FD04E0515400 /* Pods_YawImageViewer_Example.framework */,
+				FAE690A3FFCF932668CA0709 /* Pods_YawImageViewer_Tests.framework */,
+				28473C59E52B495D2616D3C4 /* YawImageViewer.bundle */,
+				245392091696EF8FAEE79012 /* YawImageViewer.bundle */,
+				96137F10DF4D5965AB30D9D5 /* YawImageViewer.framework */,
+				D1F8BCF22B7F26FFA1445D0C /* YawImageViewer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDC77B21F086B8A7CDEB7351 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				68464957FDEF5532624AA366 /* KGView.h */,
+				826FB113C725C3D28DFA4EF7 /* KGView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2ACDA1015EBB51CB662FB6FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40FE5450256F86410FCCFDD /* Pods-YawImageViewer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ED91FDA469EBB54B3E1759D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78BDD01000BD21FBA171ED61 /* KGView.h in Headers */,
+				05ED538371860AAA83CCFD50 /* Pods-YawImageViewer_Tests-YawImageViewer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		483DCE3BABEF95F17DD77CEB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E91B8EB5838BFEE9CCEEC18 /* Pods-YawImageViewer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75A7B64F84688CABE4ADDBD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE51E9A891B78ABD54B10080 /* KGView.h in Headers */,
+				93394ECA16FA2E3A03F8EF57 /* Pods-YawImageViewer_Example-YawImageViewer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C537051992AC75E01F3FE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53D6FFD6E41AE1CDC145768 /* CompactConstraint.h in Headers */,
+				195D9BD86AC5C2BD31D07B30 /* NSLayoutConstraint+CompactConstraint.h in Headers */,
+				89D3C4724DA57537E0575CB8 /* Pods-YawImageViewer_Example-CompactConstraint-umbrella.h in Headers */,
+				0BF54EB1197729D444492258 /* UIView+CompactConstraint.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7568BB5412FFE18FD5AF0DA8 /* Pods-YawImageViewer_Example-YawImageViewer-YawImageViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A654B9C668DCED7E05F144E /* Build configuration list for PBXNativeTarget "Pods-YawImageViewer_Example-YawImageViewer-YawImageViewer" */;
+			buildPhases = (
+				651F4CA8454F9CCE9BC5DE2D /* Sources */,
+				24DD3F07382299F278C7207E /* Frameworks */,
+				6BB0F216D55E3BFCB4888CDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YawImageViewer_Example-YawImageViewer-YawImageViewer";
+			productName = "Pods-YawImageViewer_Example-YawImageViewer-YawImageViewer";
+			productReference = 245392091696EF8FAEE79012 /* YawImageViewer.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B88030262D4F1C6193869D48 /* Pods-YawImageViewer_Tests-YawImageViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7DDFDCF70CD11CA29655BA0 /* Build configuration list for PBXNativeTarget "Pods-YawImageViewer_Tests-YawImageViewer" */;
+			buildPhases = (
+				0A757A98B7AA64C82FBFF7D6 /* Sources */,
+				F22B47D5047548E0F5FDC98D /* Frameworks */,
+				3CA6FEE58EBD897FA1790A08 /* Resources */,
+				3ED91FDA469EBB54B3E1759D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F9630CC5401F8CC75316E3 /* PBXTargetDependency */,
+			);
+			name = "Pods-YawImageViewer_Tests-YawImageViewer";
+			productName = "Pods-YawImageViewer_Tests-YawImageViewer";
+			productReference = D1F8BCF22B7F26FFA1445D0C /* YawImageViewer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C656B73105151ABAB36CC74D /* Pods-YawImageViewer_Tests-YawImageViewer-YawImageViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A15D9AC2EBB41C5F401EAD12 /* Build configuration list for PBXNativeTarget "Pods-YawImageViewer_Tests-YawImageViewer-YawImageViewer" */;
+			buildPhases = (
+				D75868B3F51C674B0507C817 /* Sources */,
+				5D79CE1A5BA4F41FFADAB2FB /* Frameworks */,
+				C01CBE120EBC1F32736712CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YawImageViewer_Tests-YawImageViewer-YawImageViewer";
+			productName = "Pods-YawImageViewer_Tests-YawImageViewer-YawImageViewer";
+			productReference = 28473C59E52B495D2616D3C4 /* YawImageViewer.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		CD7C887DC6F71D78A9EE6C8B /* Pods-YawImageViewer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B88B3B09EDE3F8E5253E3B43 /* Build configuration list for PBXNativeTarget "Pods-YawImageViewer_Example" */;
+			buildPhases = (
+				B9B69DDD0441C77211DFDCD3 /* Sources */,
+				659E9903B3672B9EF5EC9C90 /* Frameworks */,
+				2ACDA1015EBB51CB662FB6FA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B99AB0D57FD274167DBE6D93 /* PBXTargetDependency */,
+				DCB9A21837E02D074AB829C9 /* PBXTargetDependency */,
+			);
+			name = "Pods-YawImageViewer_Example";
+			productName = "Pods-YawImageViewer_Example";
+			productReference = 0110518B5052FD04E0515400 /* Pods_YawImageViewer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D5668769831815726F3426DD /* Pods-YawImageViewer_Example-CompactConstraint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E87C67BEBB77CC7047A7F7 /* Build configuration list for PBXNativeTarget "Pods-YawImageViewer_Example-CompactConstraint" */;
+			buildPhases = (
+				B8FC43AE8DCF6F69262B24F7 /* Sources */,
+				4090A64E9F0A6E378E125B2F /* Frameworks */,
+				D0C537051992AC75E01F3FE2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YawImageViewer_Example-CompactConstraint";
+			productName = "Pods-YawImageViewer_Example-CompactConstraint";
+			productReference = 27658DDE01658E3F8AD212B2 /* CompactConstraint.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F43254EEAD792851A503CF0E /* Pods-YawImageViewer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 963CCD55A3E0CA0748E4BCCD /* Build configuration list for PBXNativeTarget "Pods-YawImageViewer_Tests" */;
+			buildPhases = (
+				72A96A8146A768FF3957C279 /* Sources */,
+				E0683F0826B1719B0924839C /* Frameworks */,
+				483DCE3BABEF95F17DD77CEB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D625939FF6C6745CA7C6584F /* PBXTargetDependency */,
+			);
+			name = "Pods-YawImageViewer_Tests";
+			productName = "Pods-YawImageViewer_Tests";
+			productReference = FAE690A3FFCF932668CA0709 /* Pods_YawImageViewer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FEB9ED4D8DD3A9BC8909097B /* Pods-YawImageViewer_Example-YawImageViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4529E68FDA67154940D193E7 /* Build configuration list for PBXNativeTarget "Pods-YawImageViewer_Example-YawImageViewer" */;
+			buildPhases = (
+				DD2D40B38E43BCC62056F551 /* Sources */,
+				747095E12C4603FC33774FFD /* Frameworks */,
+				0DD77C4E00710F61A9F282FE /* Resources */,
+				C75A7B64F84688CABE4ADDBD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1205C6714A6746E720AADC8 /* PBXTargetDependency */,
+			);
+			name = "Pods-YawImageViewer_Example-YawImageViewer";
+			productName = "Pods-YawImageViewer_Example-YawImageViewer";
+			productReference = 96137F10DF4D5965AB30D9D5 /* YawImageViewer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEB29F45ECF0D6C53B4D11AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 109C469D9B9D77B1FAF20E02 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 867E6C541FB3404A7D6DF2AA;
+			productRefGroup = F1270A953AC27D35B4EA0F45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD7C887DC6F71D78A9EE6C8B /* Pods-YawImageViewer_Example */,
+				D5668769831815726F3426DD /* Pods-YawImageViewer_Example-CompactConstraint */,
+				FEB9ED4D8DD3A9BC8909097B /* Pods-YawImageViewer_Example-YawImageViewer */,
+				7568BB5412FFE18FD5AF0DA8 /* Pods-YawImageViewer_Example-YawImageViewer-YawImageViewer */,
+				F43254EEAD792851A503CF0E /* Pods-YawImageViewer_Tests */,
+				B88030262D4F1C6193869D48 /* Pods-YawImageViewer_Tests-YawImageViewer */,
+				C656B73105151ABAB36CC74D /* Pods-YawImageViewer_Tests-YawImageViewer-YawImageViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DD77C4E00710F61A9F282FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96602D431D6F0B8512860739 /* YawImageViewer.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA6FEE58EBD897FA1790A08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E644EA29F5F8C71BC8A672 /* YawImageViewer.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB0F216D55E3BFCB4888CDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01CBE120EBC1F32736712CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A757A98B7AA64C82FBFF7D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6DE245983AEA3114FF47B7 /* KGView.m in Sources */,
+				261F61288A0DA3DE258AC598 /* Pods-YawImageViewer_Tests-YawImageViewer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651F4CA8454F9CCE9BC5DE2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72A96A8146A768FF3957C279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3224CC133EB10FD6DB4996F2 /* Pods-YawImageViewer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8FC43AE8DCF6F69262B24F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00645E763F8C6E1CA1AEF1FC /* NSLayoutConstraint+CompactConstraint.m in Sources */,
+				46177CE7DA9F29416AF2C5B6 /* Pods-YawImageViewer_Example-CompactConstraint-dummy.m in Sources */,
+				608A47B3FB8B7A9E8E59A9F8 /* UIView+CompactConstraint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B69DDD0441C77211DFDCD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759F4CA47CDB15A786D37CD1 /* Pods-YawImageViewer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D75868B3F51C674B0507C817 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2D40B38E43BCC62056F551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F6EC97EF17B600C17B2F2F /* KGView.m in Sources */,
+				947A0B8DC4D9B2FCC1E83F0F /* Pods-YawImageViewer_Example-YawImageViewer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18F9630CC5401F8CC75316E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YawImageViewer_Tests-YawImageViewer-YawImageViewer";
+			target = C656B73105151ABAB36CC74D /* Pods-YawImageViewer_Tests-YawImageViewer-YawImageViewer */;
+			targetProxy = 46B6174277C996DC4EF5CF92 /* PBXContainerItemProxy */;
+		};
+		B99AB0D57FD274167DBE6D93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YawImageViewer_Example-CompactConstraint";
+			target = D5668769831815726F3426DD /* Pods-YawImageViewer_Example-CompactConstraint */;
+			targetProxy = 641E5138AD1D508A060AE556 /* PBXContainerItemProxy */;
+		};
+		D625939FF6C6745CA7C6584F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YawImageViewer_Tests-YawImageViewer";
+			target = B88030262D4F1C6193869D48 /* Pods-YawImageViewer_Tests-YawImageViewer */;
+			targetProxy = A230F952C4289243157F2C06 /* PBXContainerItemProxy */;
+		};
+		DCB9A21837E02D074AB829C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YawImageViewer_Example-YawImageViewer";
+			target = FEB9ED4D8DD3A9BC8909097B /* Pods-YawImageViewer_Example-YawImageViewer */;
+			targetProxy = 5FA0AEC8EDB5BED47384653A /* PBXContainerItemProxy */;
+		};
+		F1205C6714A6746E720AADC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YawImageViewer_Example-YawImageViewer-YawImageViewer";
+			target = 7568BB5412FFE18FD5AF0DA8 /* Pods-YawImageViewer_Example-YawImageViewer-YawImageViewer */;
+			targetProxy = 2C5767A8EB03D6A4E5B44D8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01D9951B2D42CE2858C10D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97CFC44BC816049B75185C47 /* Pods-YawImageViewer_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YawImageViewer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YawImageViewer_Tests/Pods-YawImageViewer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_YawImageViewer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		14E9EE3CFA405572C6F4FE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62B54CC3940C0BD96CCC8D1E /* Pods-YawImageViewer_Example-YawImageViewer-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-YawImageViewer_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = YawImageViewer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1F51581ED569AC02CA57401D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21238AE20C4D92A5B7C79CD2 /* Pods-YawImageViewer_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YawImageViewer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YawImageViewer_Tests/Pods-YawImageViewer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_YawImageViewer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B045E91EB360B70BDE1840C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31C6DF2DC66F51F32AF482CB /* Pods-YawImageViewer_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YawImageViewer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YawImageViewer_Example/Pods-YawImageViewer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_YawImageViewer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43B0904249305C3D1E095054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7408F216C4472755493654F /* Pods-YawImageViewer_Tests-YawImageViewer-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-YawImageViewer_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = YawImageViewer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		43CE8CF12D3C0627A30ABFDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7408F216C4472755493654F /* Pods-YawImageViewer_Tests-YawImageViewer-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-YawImageViewer_Tests-YawImageViewer/Pods-YawImageViewer_Tests-YawImageViewer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-YawImageViewer_Tests-YawImageViewer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YawImageViewer_Tests-YawImageViewer/Pods-YawImageViewer_Tests-YawImageViewer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = YawImageViewer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E2832D40CA22761FEB69BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62B54CC3940C0BD96CCC8D1E /* Pods-YawImageViewer_Example-YawImageViewer-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-YawImageViewer_Example-YawImageViewer/Pods-YawImageViewer_Example-YawImageViewer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-YawImageViewer_Example-YawImageViewer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YawImageViewer_Example-YawImageViewer/Pods-YawImageViewer_Example-YawImageViewer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = YawImageViewer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		711FCDED27DB334A9B2EA5DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		717A00AAB4502BF69542C095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		72A328F025B7CFCC77867097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B453FBDF91195BABD7C267D6 /* Pods-YawImageViewer_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YawImageViewer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YawImageViewer_Example/Pods-YawImageViewer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_YawImageViewer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79C66EB54FC9C19F94D8F821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62B54CC3940C0BD96CCC8D1E /* Pods-YawImageViewer_Example-YawImageViewer-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-YawImageViewer_Example-YawImageViewer/Pods-YawImageViewer_Example-YawImageViewer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-YawImageViewer_Example-YawImageViewer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YawImageViewer_Example-YawImageViewer/Pods-YawImageViewer_Example-YawImageViewer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = YawImageViewer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9D6FF2120DBD261AA3A42A40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62B54CC3940C0BD96CCC8D1E /* Pods-YawImageViewer_Example-YawImageViewer-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-YawImageViewer_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = YawImageViewer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A72DD88C4EAA7D3A36877C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB04FB8E86AFD6AD58CCE9B9 /* Pods-YawImageViewer_Example-CompactConstraint-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-YawImageViewer_Example-CompactConstraint/Pods-YawImageViewer_Example-CompactConstraint-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-YawImageViewer_Example-CompactConstraint/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YawImageViewer_Example-CompactConstraint/Pods-YawImageViewer_Example-CompactConstraint.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CompactConstraint;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7866803048B7E0E0B694878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7408F216C4472755493654F /* Pods-YawImageViewer_Tests-YawImageViewer-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-YawImageViewer_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = YawImageViewer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F5F50F262C1A2A85CB06F563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7408F216C4472755493654F /* Pods-YawImageViewer_Tests-YawImageViewer-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-YawImageViewer_Tests-YawImageViewer/Pods-YawImageViewer_Tests-YawImageViewer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-YawImageViewer_Tests-YawImageViewer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YawImageViewer_Tests-YawImageViewer/Pods-YawImageViewer_Tests-YawImageViewer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = YawImageViewer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9D5322FE9078603C4AC0C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB04FB8E86AFD6AD58CCE9B9 /* Pods-YawImageViewer_Example-CompactConstraint-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-YawImageViewer_Example-CompactConstraint/Pods-YawImageViewer_Example-CompactConstraint-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-YawImageViewer_Example-CompactConstraint/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YawImageViewer_Example-CompactConstraint/Pods-YawImageViewer_Example-CompactConstraint.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CompactConstraint;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		109C469D9B9D77B1FAF20E02 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717A00AAB4502BF69542C095 /* Debug */,
+				711FCDED27DB334A9B2EA5DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4529E68FDA67154940D193E7 /* Build configuration list for PBXNativeTarget "Pods-YawImageViewer_Example-YawImageViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2832D40CA22761FEB69BE9 /* Debug */,
+				79C66EB54FC9C19F94D8F821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		963CCD55A3E0CA0748E4BCCD /* Build configuration list for PBXNativeTarget "Pods-YawImageViewer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D9951B2D42CE2858C10D1C /* Debug */,
+				1F51581ED569AC02CA57401D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A654B9C668DCED7E05F144E /* Build configuration list for PBXNativeTarget "Pods-YawImageViewer_Example-YawImageViewer-YawImageViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D6FF2120DBD261AA3A42A40 /* Debug */,
+				14E9EE3CFA405572C6F4FE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A15D9AC2EBB41C5F401EAD12 /* Build configuration list for PBXNativeTarget "Pods-YawImageViewer_Tests-YawImageViewer-YawImageViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43B0904249305C3D1E095054 /* Debug */,
+				D7866803048B7E0E0B694878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B88B3B09EDE3F8E5253E3B43 /* Build configuration list for PBXNativeTarget "Pods-YawImageViewer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B045E91EB360B70BDE1840C /* Debug */,
+				72A328F025B7CFCC77867097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2E87C67BEBB77CC7047A7F7 /* Build configuration list for PBXNativeTarget "Pods-YawImageViewer_Example-CompactConstraint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A72DD88C4EAA7D3A36877C03 /* Debug */,
+				F9D5322FE9078603C4AC0C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7DDFDCF70CD11CA29655BA0 /* Build configuration list for PBXNativeTarget "Pods-YawImageViewer_Tests-YawImageViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43CE8CF12D3C0627A30ABFDA /* Debug */,
+				F5F50F262C1A2A85CB06F563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEB29F45ECF0D6C53B4D11AA /* Project object */;
+}

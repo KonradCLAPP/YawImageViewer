@@ -1,0 +1,6 @@
+framework module CompactConstraint {
+  umbrella header "Pods-YawImageViewer_Example-CompactConstraint-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,17 @@
+PODS:
+  - CompactConstraint (0.1.0)
+  - YawImageViewer (0.1.0)
+
+DEPENDENCIES:
+  - CompactConstraint
+  - YawImageViewer (from `../`)
+
+EXTERNAL SOURCES:
+  YawImageViewer:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CompactConstraint: 562187c821afcc510536a3df799a16c25bea3d9b
+  YawImageViewer: dd443569ec559bac6135638f2076e25af35fb59f
+
+COCOAPODS: 0.37.2
